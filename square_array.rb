@@ -1,12 +1,7 @@
 def square_array(numbers)
   finalArr = []
   
-  i = 0
-  while i < numbers.length
-  finalArr << numbers[i] & numbers[i]
-  
-  i += 1
-  end
+  each
 
   return finalArr
 end
