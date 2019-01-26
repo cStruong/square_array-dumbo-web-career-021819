@@ -1,7 +1,7 @@
 def square_array(numbers)
   finalArr = []
   
-  numbers.each_index {|x| ** x}
+  numbers.each_index {finalArr << |x| ** x}
     
 
   return finalArr
