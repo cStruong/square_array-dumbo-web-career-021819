@@ -1,7 +1,8 @@
 def square_array(numbers)
   finalArr = []
   
-  each
+  numbers.each do 
+    
 
   return finalArr
 end
