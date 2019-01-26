@@ -1,7 +1,7 @@
 def square_array(numbers)
   finalArr = []
   
-  numbers.each {|x| x ** 2, finalArr << x}
+  numbers.each {|x| finalArr << x **2}
     
 
   return finalArr
