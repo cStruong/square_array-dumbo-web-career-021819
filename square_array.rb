@@ -1,7 +1,7 @@
 def square_array(array)
   finalArr = []
   
-  array.each |square|
+  array.each do |square|
   square 
     
 end
