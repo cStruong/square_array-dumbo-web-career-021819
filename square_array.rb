@@ -1,9 +1,9 @@
-def square_array(array)
+def square_array(numbers)
   finalArr = []
   
   i = 0
-  while i < array.length
-  finalaArr << array[i] & array[i]
+  while i < numbers.length
+  finalaArr << numbers[i] & numbers[i]
   
   i += 1
   end
